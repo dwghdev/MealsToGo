@@ -3,9 +3,9 @@ import { Searchbar } from "react-native-paper";
 import { FlatList } from "react-native";
 import styled from "styled-components/native";
 
+import { Spacer } from "../../../components/spacer/spacer.component";
 import { SafeArea } from "../../../components/utility/safe-area.component";
 import { RestaurantInfoCard } from "../components/restaurant-info-card.component";
-import { Spacer } from "../../../components/spacer/spacer.component";
 
 const SearchContainer = styled.View`
   padding: ${(props) => props.theme.space[3]};
