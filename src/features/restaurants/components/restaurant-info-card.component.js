@@ -24,10 +24,11 @@ export const RestaurantInfoCard = ({ restaurant = {} }) => {
     photos = [
       "https://www.foodiesfeed.com/wp-content/uploads/2019/06/top-view-for-box-of-2-burgers-home-made-600x899.jpg",
     ],
-    address = "100 some random street",
+    address,
     isOpenNow = true,
     rating = 4,
     isClosedTemporarily = true,
+    placeId,
   } = restaurant;
 
   const ratingArray = Array.from(new Array(Math.floor(rating)));
@@ -44,7 +45,7 @@ export const RestaurantInfoCard = ({ restaurant = {} }) => {
                 xml={star} 
                 width={20} 
                 height={20} 
-                key={`star-${i}`} 
+                key={`star-${placeId}-${i}`} 
               />
             ))}
           </Rating>
