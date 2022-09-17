@@ -6,12 +6,12 @@ export const FavouritesContextProvider = ({ children }) => {
   const [favourites, setFavourites] = useState([]);
 
   const add = restaurant => {
-    setFavorites([...favourites, restaurant]);
+    setFavourites([...favourites, restaurant]);
   };
 
   const remove = restaurant => {
-    const newFavourites = favourites.filter(x => x.placeId !== item.placeId);
-    setFavorites(newFavorites);
+    const newFavourites = favourites.filter(x => x.placeId !== restaurant.placeId);
+    setFavourites(newFavourites);
   };
 
   return (

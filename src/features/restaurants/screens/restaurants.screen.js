@@ -3,11 +3,13 @@ import styled from "styled-components/native";
 
 import { Search } from "../components/search.component";
 import { FlatList, TouchableOpacity } from "react-native";
+
 import { ActivityIndicator, Colors } from "react-native-paper";
 import { Spacer } from "../../../components/spacer/spacer.component";
 import { SafeArea } from "../../../components/utility/safe-area.component";
-import { RestaurantsContext } from "../../../services/restaurants/restaurants.context";
+
 import { RestaurantInfoCard } from "../components/restaurant-info-card.component";
+import { RestaurantsContext } from "../../../services/restaurants/restaurants.context";
 
 const RestaurantList = styled(FlatList).attrs({
   contentContainerStyle: {
@@ -26,6 +28,7 @@ const LoadingContainer = styled.View`
 
 export const RestaurantsScreen = ({ navigation }) => {
   const { isLoading, restaurants } = useContext(RestaurantsContext);
+
   return (
     <SafeArea>
       {isLoading && (
