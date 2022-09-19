@@ -46,3 +46,11 @@ export const ErrorContainer = styled.View`
 export const Title = styled(Text)`
   font-size: 30px;
 `;
+
+export const AnimationWrapper = styled.View`
+  top: 3px;
+  width: 100%; 
+  height: 40%;
+  position: absolute;
+  padding: ${props => props.theme.space[2]};
+`;
