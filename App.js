@@ -11,7 +11,7 @@ import { FavouritesContextProvider } from "./src/services/favourites/favourites.
 import { RestaurantsContextProvider } from "./src/services/restaurants/restaurants.context";
 import { AuthenticationContextProvider } from "./src/services/authentication/authentication.context";
 
-import firebase from 'firebase/compat/app';
+import firebase from "firebase/compat/app";
 
 const firebaseConfig = {
   apiKey: "AIzaSyAZxwdV_HyXswJ2y4jApq8MgCdVF0ty-9E",
@@ -22,8 +22,12 @@ const firebaseConfig = {
   appId: "1:947013286871:web:a0c59228d52f1fe4bc2992"
 };
 
-if (firebase.apps.length) {
-  firebase.initializeApp(firebaseConfig);
+let app;
+
+if (firebase.apps.length === 0) {
+  app = firebase.initializeApp(firebaseConfig)
+} else {
+  app = firebase.app();
 }
 
 export default function App() {
