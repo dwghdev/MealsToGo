@@ -1,11 +1,12 @@
 import React, { useContext, useState } from "react";
 import styled from "styled-components/native";
 
-import { FlatList, TouchableOpacity } from "react-native";
+import { TouchableOpacity } from "react-native";
 import { ActivityIndicator, Colors } from "react-native-paper";
 
 import { Spacer } from "../../../components/spacer/spacer.component";
 import { SafeArea } from "../../../components/utility/safe-area.component";
+import { FadeInView } from "../../../components/animations/fade.animation";
 import { FavouritesBar } from "../../../components/favourites/favourites-bar.component";
 
 import { Search } from "../components/search.component";
@@ -43,19 +44,19 @@ export const RestaurantsScreen = ({ navigation }) => {
       {isToggled && <FavouritesBar favourites={favourites} onNavigate={navigation.navigate} />}
       <RestaurantList
         data={restaurants}
-        renderItem={({ item }) => {
-          return (
-            <TouchableOpacity onPress={() => 
-              navigation.navigate("RestaurantDetail", {
-                restaurant: item,
-              })}
-            >
-              <Spacer position="bottom" size="large">
+        renderItem={({ item }) => (
+          <TouchableOpacity onPress={() => 
+            navigation.navigate("RestaurantDetail", {
+              restaurant: item,
+            })}
+          >
+            <Spacer position="bottom" size="large">
+              <FadeInView>
                 <RestaurantInfoCard restaurant={item} />
-              </Spacer>
-            </TouchableOpacity>
-          );
-        }}
+              </FadeInView>
+            </Spacer>
+          </TouchableOpacity>
+        )}
         keyExtractor={(item) => item.name}
       />
     </SafeArea>
