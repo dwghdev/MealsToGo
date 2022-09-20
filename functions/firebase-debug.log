@@ -1,35 +1,36 @@
-[debug] [2022-09-20T07:53:02.682Z] ----------------------------------------------------------------------
-[debug] [2022-09-20T07:53:02.685Z] Command:       /home/dale/.volta/tools/image/node/16.17.0/bin/node /home/dale/.volta/tools/image/packages/firebase-tools/bin/firebase emulators:start --only functions
-[debug] [2022-09-20T07:53:02.686Z] CLI Version:   11.9.0
-[debug] [2022-09-20T07:53:02.686Z] Platform:      linux
-[debug] [2022-09-20T07:53:02.686Z] Node Version:  v16.17.0
-[debug] [2022-09-20T07:53:02.687Z] Time:          Tue Sep 20 2022 15:53:02 GMT+0800 (Philippine Standard Time)
-[debug] [2022-09-20T07:53:02.687Z] ----------------------------------------------------------------------
+[debug] [2022-09-20T09:41:50.141Z] ----------------------------------------------------------------------
+[debug] [2022-09-20T09:41:50.143Z] Command:       /home/dale/.volta/tools/image/node/16.17.0/bin/node /home/dale/.volta/tools/image/packages/firebase-tools/bin/firebase emulators:start --only functions
+[debug] [2022-09-20T09:41:50.143Z] CLI Version:   11.9.0
+[debug] [2022-09-20T09:41:50.143Z] Platform:      linux
+[debug] [2022-09-20T09:41:50.143Z] Node Version:  v16.17.0
+[debug] [2022-09-20T09:41:50.144Z] Time:          Tue Sep 20 2022 17:41:50 GMT+0800 (Philippine Standard Time)
+[debug] [2022-09-20T09:41:50.144Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2022-09-20T07:53:02.847Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2022-09-20T07:53:02.848Z] > authorizing via signed-in user (dalewaltergh@gmail.com)
+[debug] [2022-09-20T09:41:50.215Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-09-20T09:41:50.215Z] > authorizing via signed-in user (dalewaltergh@gmail.com)
 [info] i  emulators: Starting emulators: functions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions"}}
-[debug] [2022-09-20T07:53:02.922Z] [hub] writing locator at /tmp/hub-mealstogo-e2e6a.json
+[debug] [2022-09-20T09:41:50.239Z] [hub] writing locator at /tmp/hub-mealstogo-e2e6a.json
 [warn] ⚠  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, hosting, pubsub, storage, eventarc {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, hosting, pubsub, storage, eventarc\u001b[22m"}}
 [info] ✔  functions: Using node@16 from host. {"metadata":{"emulator":{"name":"functions"},"message":"Using node@16 from host."}}
-[debug] [2022-09-20T07:53:02.954Z] defaultcredentials: writing to file /home/dale/.config/firebase/dalewaltergh_gmail_com_application_default_credentials.json
-[debug] [2022-09-20T07:53:02.957Z] Setting GAC to /home/dale/.config/firebase/dalewaltergh_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to /home/dale/.config/firebase/dalewaltergh_gmail_com_application_default_credentials.json"}}
-[debug] [2022-09-20T07:53:02.959Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/mealstogo-e2e6a/adminSdkConfig [none]
-[debug] [2022-09-20T07:53:03.362Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/mealstogo-e2e6a/adminSdkConfig 200
-[debug] [2022-09-20T07:53:03.362Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/mealstogo-e2e6a/adminSdkConfig {"projectId":"mealstogo-e2e6a","storageBucket":"mealstogo-e2e6a.appspot.com"}
-[info] i  ui: downloading ui-v1.9.0.zip... {"metadata":{"emulator":{"name":"ui"},"message":"downloading ui-v1.9.0.zip..."}}
-[debug] [2022-09-20T07:53:03.444Z] >>> [apiv2][query] GET https://storage.googleapis.com/firebase-preview-drop/emulator/ui-v1.9.0.zip 
-[debug] [2022-09-20T07:53:03.805Z] <<< [apiv2][status] GET https://storage.googleapis.com/firebase-preview-drop/emulator/ui-v1.9.0.zip 200
-[debug] [2022-09-20T07:53:03.805Z] <<< [apiv2][body] GET https://storage.googleapis.com/firebase-preview-drop/emulator/ui-v1.9.0.zip [stream]
-[debug] [2022-09-20T07:53:04.642Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
-[debug] [2022-09-20T07:53:04.642Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
-[debug] [2022-09-20T07:53:04.642Z] Starting Emulator UI with command {"binary":"node","args":["/home/dale/.cache/firebase/emulators/ui-v1.9.0/server/server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"/home/dale/.cache/firebase/emulators/ui-v1.9.0/server/server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[debug] [2022-09-20T09:41:50.277Z] defaultcredentials: writing to file /home/dale/.config/firebase/dalewaltergh_gmail_com_application_default_credentials.json
+[debug] [2022-09-20T09:41:50.279Z] Setting GAC to /home/dale/.config/firebase/dalewaltergh_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to /home/dale/.config/firebase/dalewaltergh_gmail_com_application_default_credentials.json"}}
+[debug] [2022-09-20T09:41:50.281Z] > refreshing access token with scopes: []
+[debug] [2022-09-20T09:41:50.282Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-09-20T09:41:50.283Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-09-20T09:41:50.450Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2022-09-20T09:41:50.450Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-09-20T09:41:50.539Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/mealstogo-e2e6a/adminSdkConfig [none]
+[debug] [2022-09-20T09:41:50.882Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/mealstogo-e2e6a/adminSdkConfig 200
+[debug] [2022-09-20T09:41:50.882Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/mealstogo-e2e6a/adminSdkConfig {"projectId":"mealstogo-e2e6a","storageBucket":"mealstogo-e2e6a.appspot.com"}
+[debug] [2022-09-20T09:41:50.954Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-09-20T09:41:50.954Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-09-20T09:41:50.954Z] Starting Emulator UI with command {"binary":"node","args":["/home/dale/.cache/firebase/emulators/ui-v1.9.0/server/server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"/home/dale/.cache/firebase/emulators/ui-v1.9.0/server/server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
 [info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
-[debug] [2022-09-20T07:53:04.803Z] Web / API server started at localhost:4000
+[debug] [2022-09-20T09:41:51.069Z] Web / API server started at localhost:4000
  {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at localhost:4000\n"}}
 [info] i  functions: Watching "/home/dale/repos/MealsToGo/functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"/home/dale/repos/MealsToGo/functions\" for Cloud Functions..."}}
-[debug] [2022-09-20T07:53:04.911Z] Validating nodejs source
-[debug] [2022-09-20T07:53:07.746Z] > [functions] package.json contents: {
+[debug] [2022-09-20T09:41:51.234Z] Validating nodejs source
+[debug] [2022-09-20T09:41:52.265Z] > [functions] package.json contents: {
   "name": "functions",
   "description": "Cloud Functions for Firebase",
   "scripts": {
@@ -52,15 +53,18 @@
   },
   "private": true
 }
-[debug] [2022-09-20T07:53:07.746Z] Building nodejs source
-[debug] [2022-09-20T07:53:07.746Z] Analyzing nodejs backend spec
-[debug] [2022-09-20T07:53:07.748Z] Could not find functions.yaml. Must use http discovery
-[debug] [2022-09-20T07:53:07.927Z] Serving at port 9005
+[debug] [2022-09-20T09:41:52.265Z] Building nodejs source
+[debug] [2022-09-20T09:41:52.265Z] Analyzing nodejs backend spec
+[debug] [2022-09-20T09:41:52.267Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-09-20T09:41:52.424Z] Serving at port 9005
 
-[debug] [2022-09-20T07:53:08.051Z] Got response from /__/functions.yaml {"endpoints":{},"specVersion":"v1alpha1","requiredAPIs":[]}
-[debug] [2022-09-20T07:53:08.061Z] shutdown requested via /__/quitquitquit
+[debug] [2022-09-20T09:41:52.439Z] Got response from /__/functions.yaml Failed to generate manifest from function source: SyntaxError: Malformed arrow function parameter list
+[debug] [2022-09-20T09:41:52.443Z] Failed to parse functions.yamlincomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:
+     ... rom function source: SyntaxError: Malformed arrow function param ... 
+                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: SyntaxError: Malformed arrow function parameter list\n\u0000","position":61,"line":0,"column":61},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:\n     ... rom function source: SyntaxError: Malformed arrow function param ... \n                                         ^"}
+[debug] [2022-09-20T09:41:52.448Z] shutdown requested via /__/quitquitquit
 
-[info] ✔  functions: Loaded functions definitions from source: . {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: ."}}
+[error] ⬢  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Malformed arrow function parameter list {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Malformed arrow function parameter list"}}
 [info] 
 ┌─────────────────────────────────────────────────────────────┐
 │ ✔  All emulators ready! It is now safe to connect your app. │
@@ -77,9 +81,18 @@
 
 Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
  
-[debug] [2022-09-20T07:54:29.200Z] File /home/dale/repos/MealsToGo/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /home/dale/repos/MealsToGo/functions/index.js changed, reloading triggers"}}
-[debug] [2022-09-20T07:54:30.202Z] Validating nodejs source
-[debug] [2022-09-20T07:54:31.504Z] > [functions] package.json contents: {
+[debug] [2022-09-20T09:41:57.347Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-09-20T09:41:57.347Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-09-20T09:41:57.353Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-09-20T09:41:58.718Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-09-20T09:41:58.718Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-09-20T09:41:58.719Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-09-20T09:42:01.599Z] File /home/dale/repos/MealsToGo/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /home/dale/repos/MealsToGo/functions/index.js changed, reloading triggers"}}
+[debug] [2022-09-20T09:42:02.411Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-09-20T09:42:02.412Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-09-20T09:42:02.415Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-09-20T09:42:02.601Z] Validating nodejs source
+[debug] [2022-09-20T09:42:03.977Z] > [functions] package.json contents: {
   "name": "functions",
   "description": "Cloud Functions for Firebase",
   "scripts": {
@@ -102,50 +115,24 @@ Issues? Report them at https://github.com/firebase/firebase-tools/issues and att
   },
   "private": true
 }
-[debug] [2022-09-20T07:54:31.504Z] Building nodejs source
-[debug] [2022-09-20T07:54:31.504Z] Analyzing nodejs backend spec
-[debug] [2022-09-20T07:54:31.505Z] Could not find functions.yaml. Must use http discovery
-[debug] [2022-09-20T07:54:31.689Z] Serving at port 9005
+[debug] [2022-09-20T09:42:03.978Z] Building nodejs source
+[debug] [2022-09-20T09:42:03.978Z] Analyzing nodejs backend spec
+[debug] [2022-09-20T09:42:03.978Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-09-20T09:42:04.165Z] Serving at port 9005
 
-[debug] [2022-09-20T07:54:31.745Z] Got response from /__/functions.yaml {"endpoints":{"helloWorld":{"platform":"gcfv1","httpsTrigger":{},"entryPoint":"helloWorld"}},"specVersion":"v1alpha1","requiredAPIs":[]}
-[debug] [2022-09-20T07:54:31.752Z] shutdown requested via /__/quitquitquit
+[debug] [2022-09-20T09:42:04.181Z] Got response from /__/functions.yaml Failed to generate manifest from function source: SyntaxError: Malformed arrow function parameter list
+[debug] [2022-09-20T09:42:04.182Z] Failed to parse functions.yamlincomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:
+     ... rom function source: SyntaxError: Malformed arrow function param ... 
+                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: SyntaxError: Malformed arrow function parameter list\n\u0000","position":61,"line":0,"column":61},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:\n     ... rom function source: SyntaxError: Malformed arrow function param ... \n                                         ^"}
+[debug] [2022-09-20T09:42:04.187Z] shutdown requested via /__/quitquitquit
 
-[info] ✔  functions: Loaded functions definitions from source: helloWorld. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: helloWorld."}}
-[info] ✔  functions[us-central1-helloWorld]: http function initialized (http://localhost:5001/mealstogo-e2e6a/us-central1/helloWorld). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://localhost:5001/mealstogo-e2e6a/us-central1/helloWorld)."}}
-[debug] [2022-09-20T07:55:07.443Z] [work-queue] {"queueLength":1,"workRunningCount":0}
-[debug] [2022-09-20T07:55:07.443Z] [work-queue] {"queueLength":0,"workRunningCount":1}
-[debug] [2022-09-20T07:55:07.444Z] Accepted request GET /mealstogo-e2e6a/us-central1/helloWorld --> us-central1-helloWorld
-[debug] [2022-09-20T07:55:07.457Z] [worker-pool] addWorker(us-central1-helloWorld) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-helloWorld)"}}
-[debug] [2022-09-20T07:55:07.457Z] [worker-pool] Adding worker with key us-central1-helloWorld, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-helloWorld, total=1"}}
-[debug] [2022-09-20T07:55:07.457Z] [worker-pool] submitWork(triggerId=us-central1-helloWorld) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-helloWorld)"}}
-[debug] [2022-09-20T07:55:07.457Z] [worker-us-central1-helloWorld-4c2c26d7-83a0-4fad-958d-fda3da904d96]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-helloWorld-4c2c26d7-83a0-4fad-958d-fda3da904d96]: BUSY"}}
-[debug] [2022-09-20T07:55:08.248Z] [runtime-status] [76018] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"/home/dale/repos/MealsToGo/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [76018] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"/home/dale/repos/MealsToGo/functions/node_modules/firebase-admin/lib/index.js\"}"}}
-[debug] [2022-09-20T07:55:08.256Z] [runtime-status] [76018] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.23.0","resolution":"/home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [76018] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.23.0\",\"resolution\":\"/home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/index.js\"}"}}
-[debug] [2022-09-20T07:55:08.257Z] [runtime-status] [76018] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [76018] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
-[debug] [2022-09-20T07:55:08.259Z] [runtime-status] [76018] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.23.0","resolution":"/home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [76018] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.23.0\",\"resolution\":\"/home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/index.js\"}"}}
-[debug] [2022-09-20T07:55:08.297Z] [runtime-status] [76018] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [76018] Checked functions.config() {\"config\":{}}"}}
-[debug] [2022-09-20T07:55:08.297Z] [runtime-status] [76018] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.23.0","resolution":"/home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [76018] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.23.0\",\"resolution\":\"/home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/index.js\"}}"}}
-[debug] [2022-09-20T07:55:08.299Z] [runtime-status] [76018] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.23.0","resolution":"/home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [76018] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.23.0\",\"resolution\":\"/home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/index.js\"}"}}
-[debug] [2022-09-20T07:55:08.300Z] [runtime-status] [76018] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"/home/dale/repos/MealsToGo/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [76018] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"/home/dale/repos/MealsToGo/functions/node_modules/firebase-admin/lib/index.js\"}"}}
-[debug] [2022-09-20T07:55:08.301Z] [runtime-status] [76018] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.23.0","resolution":"/home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [76018] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.23.0\",\"resolution\":\"/home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/index.js\"}"}}
-[debug] [2022-09-20T07:55:08.301Z] [runtime-status] [76018] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.3.0","resolution":"/home/dale/repos/MealsToGo/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [76018] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"/home/dale/repos/MealsToGo/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
-[debug] [2022-09-20T07:55:08.302Z] [runtime-status] [76018] Functions runtime initialized. {"cwd":"/home/dale/repos/MealsToGo/functions","node_version":"16.17.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [76018] Functions runtime initialized. {\"cwd\":\"/home/dale/repos/MealsToGo/functions\",\"node_version\":\"16.17.0\"}"}}
-[debug] [2022-09-20T07:55:08.304Z] [runtime-status] [76018] Beginning invocation function helloWorld! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [76018] Beginning invocation function helloWorld!"}}
-[info] i  functions: Beginning execution of "helloWorld" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"Beginning execution of \"helloWorld\""}}
-[debug] [2022-09-20T07:55:08.305Z] [runtime-status] [76018] Running helloWorld in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [76018] Running helloWorld in signature http"}}
-[debug] [2022-09-20T07:55:08.312Z] [runtime-status] [76018] Listening to port: /tmp/fire_emu_78cd7a26bf035c26.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [76018] Listening to port: /tmp/fire_emu_78cd7a26bf035c26.sock"}}
-[debug] [2022-09-20T07:55:08.375Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
-[debug] [2022-09-20T07:55:08.376Z] [functions] Got req.url=/mealstogo-e2e6a/us-central1/helloWorld, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/mealstogo-e2e6a/us-central1/helloWorld, mapping to path=/"}}
-[debug] [2022-09-20T07:55:08.379Z] [runtime-status] [76018] Ephemeral server handling GET request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [76018] Ephemeral server handling GET request"}}
-[info] >  {"structuredData":true,"severity":"INFO","message":"Hello logs!"} {"user":{"structuredData":true,"severity":"INFO","message":"Hello logs!"},"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"\u001b[90m> \u001b[39m {\"structuredData\":true,\"severity\":\"INFO\",\"message\":\"Hello logs!\"}"}}
-[debug] [2022-09-20T07:55:08.383Z] [runtime-status] [76018] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [76018] Ephemeral server survived."}}
-[info] i  functions: Finished "helloWorld" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"Finished \"helloWorld\" in ~1s"}}
-[debug] [2022-09-20T07:55:08.386Z] [worker-us-central1-helloWorld-4c2c26d7-83a0-4fad-958d-fda3da904d96]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-helloWorld-4c2c26d7-83a0-4fad-958d-fda3da904d96]: IDLE"}}
-[debug] [2022-09-20T07:55:08.387Z] [work-queue] {"queueLength":0,"workRunningCount":0}
-[debug] [2022-09-20T07:55:08.486Z] Functions emulator received unknown request at path /favicon.ico
-[debug] [2022-09-20T07:55:26.860Z] File /home/dale/repos/MealsToGo/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /home/dale/repos/MealsToGo/functions/index.js changed, reloading triggers"}}
-[debug] [2022-09-20T07:55:27.861Z] Validating nodejs source
-[debug] [2022-09-20T07:55:29.137Z] > [functions] package.json contents: {
+[error] ⬢  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Malformed arrow function parameter list {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Malformed arrow function parameter list"}}
+[debug] [2022-09-20T09:42:07.744Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-09-20T09:42:07.744Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-09-20T09:42:07.745Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-09-20T09:42:12.422Z] File /home/dale/repos/MealsToGo/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /home/dale/repos/MealsToGo/functions/index.js changed, reloading triggers"}}
+[debug] [2022-09-20T09:42:13.423Z] Validating nodejs source
+[debug] [2022-09-20T09:42:14.575Z] > [functions] package.json contents: {
   "name": "functions",
   "description": "Cloud Functions for Firebase",
   "scripts": {
@@ -168,53 +155,25 @@ Issues? Report them at https://github.com/firebase/firebase-tools/issues and att
   },
   "private": true
 }
-[debug] [2022-09-20T07:55:29.137Z] Building nodejs source
-[debug] [2022-09-20T07:55:29.137Z] Analyzing nodejs backend spec
-[debug] [2022-09-20T07:55:29.138Z] Could not find functions.yaml. Must use http discovery
-[debug] [2022-09-20T07:55:29.321Z] Serving at port 9005
+[debug] [2022-09-20T09:42:14.575Z] Building nodejs source
+[debug] [2022-09-20T09:42:14.575Z] Analyzing nodejs backend spec
+[debug] [2022-09-20T09:42:14.578Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-09-20T09:42:14.622Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-09-20T09:42:14.622Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-09-20T09:42:14.623Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-09-20T09:42:14.692Z] Functions emulator received unknown request at path /favicon.ico
+[debug] [2022-09-20T09:42:14.811Z] Serving at port 9005
 
-[debug] [2022-09-20T07:55:29.377Z] Got response from /__/functions.yaml {"endpoints":{"helloWorld":{"platform":"gcfv1","httpsTrigger":{},"entryPoint":"helloWorld"}},"specVersion":"v1alpha1","requiredAPIs":[]}
-[debug] [2022-09-20T07:55:29.386Z] shutdown requested via /__/quitquitquit
+[debug] [2022-09-20T09:42:14.827Z] Got response from /__/functions.yaml Failed to generate manifest from function source: SyntaxError: Malformed arrow function parameter list
+[debug] [2022-09-20T09:42:14.827Z] Failed to parse functions.yamlincomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:
+     ... rom function source: SyntaxError: Malformed arrow function param ... 
+                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: SyntaxError: Malformed arrow function parameter list\n\u0000","position":61,"line":0,"column":61},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:\n     ... rom function source: SyntaxError: Malformed arrow function param ... \n                                         ^"}
+[debug] [2022-09-20T09:42:14.833Z] shutdown requested via /__/quitquitquit
 
-[info] ✔  functions: Loaded functions definitions from source: helloWorld. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: helloWorld."}}
-[debug] [2022-09-20T07:55:29.394Z] [worker-pool] Shutting down IDLE worker (us-central1-helloWorld) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Shutting down IDLE worker (us-central1-helloWorld)"}}
-[debug] [2022-09-20T07:55:29.394Z] [worker-us-central1-helloWorld-4c2c26d7-83a0-4fad-958d-fda3da904d96]: FINISHING {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-helloWorld-4c2c26d7-83a0-4fad-958d-fda3da904d96]: FINISHING"}}
-[debug] [2022-09-20T07:55:29.401Z] [worker-us-central1-helloWorld-4c2c26d7-83a0-4fad-958d-fda3da904d96]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-helloWorld-4c2c26d7-83a0-4fad-958d-fda3da904d96]: exited"}}
-[debug] [2022-09-20T07:55:29.402Z] [worker-us-central1-helloWorld-4c2c26d7-83a0-4fad-958d-fda3da904d96]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-helloWorld-4c2c26d7-83a0-4fad-958d-fda3da904d96]: FINISHED"}}
-[debug] [2022-09-20T07:55:33.511Z] [work-queue] {"queueLength":1,"workRunningCount":0}
-[debug] [2022-09-20T07:55:33.512Z] [work-queue] {"queueLength":0,"workRunningCount":1}
-[debug] [2022-09-20T07:55:33.512Z] Accepted request GET /mealstogo-e2e6a/us-central1/helloWorld --> us-central1-helloWorld
-[debug] [2022-09-20T07:55:33.512Z] [worker-pool] Cleaned up workers for us-central1-helloWorld: 1 --> 0 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Cleaned up workers for us-central1-helloWorld: 1 --> 0"}}
-[debug] [2022-09-20T07:55:33.522Z] [worker-pool] addWorker(us-central1-helloWorld) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-helloWorld)"}}
-[debug] [2022-09-20T07:55:33.522Z] [worker-pool] Adding worker with key us-central1-helloWorld, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-helloWorld, total=1"}}
-[debug] [2022-09-20T07:55:33.522Z] [worker-pool] submitWork(triggerId=us-central1-helloWorld) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-helloWorld)"}}
-[debug] [2022-09-20T07:55:33.522Z] [worker-us-central1-helloWorld-3f985e9f-cb95-4a4b-8afd-91c0278fa86a]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-helloWorld-3f985e9f-cb95-4a4b-8afd-91c0278fa86a]: BUSY"}}
-[debug] [2022-09-20T07:55:34.379Z] [runtime-status] [76095] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"/home/dale/repos/MealsToGo/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [76095] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"/home/dale/repos/MealsToGo/functions/node_modules/firebase-admin/lib/index.js\"}"}}
-[debug] [2022-09-20T07:55:34.381Z] [runtime-status] [76095] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.23.0","resolution":"/home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [76095] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.23.0\",\"resolution\":\"/home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/index.js\"}"}}
-[debug] [2022-09-20T07:55:34.382Z] [runtime-status] [76095] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [76095] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
-[debug] [2022-09-20T07:55:34.383Z] [runtime-status] [76095] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.23.0","resolution":"/home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [76095] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.23.0\",\"resolution\":\"/home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/index.js\"}"}}
-[debug] [2022-09-20T07:55:34.425Z] [runtime-status] [76095] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [76095] Checked functions.config() {\"config\":{}}"}}
-[debug] [2022-09-20T07:55:34.426Z] [runtime-status] [76095] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.23.0","resolution":"/home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [76095] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.23.0\",\"resolution\":\"/home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/index.js\"}}"}}
-[debug] [2022-09-20T07:55:34.427Z] [runtime-status] [76095] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.23.0","resolution":"/home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [76095] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.23.0\",\"resolution\":\"/home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/index.js\"}"}}
-[debug] [2022-09-20T07:55:34.428Z] [runtime-status] [76095] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"/home/dale/repos/MealsToGo/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [76095] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"/home/dale/repos/MealsToGo/functions/node_modules/firebase-admin/lib/index.js\"}"}}
-[debug] [2022-09-20T07:55:34.429Z] [runtime-status] [76095] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.23.0","resolution":"/home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [76095] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.23.0\",\"resolution\":\"/home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/index.js\"}"}}
-[debug] [2022-09-20T07:55:34.429Z] [runtime-status] [76095] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.3.0","resolution":"/home/dale/repos/MealsToGo/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [76095] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"/home/dale/repos/MealsToGo/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
-[debug] [2022-09-20T07:55:34.429Z] [runtime-status] [76095] Functions runtime initialized. {"cwd":"/home/dale/repos/MealsToGo/functions","node_version":"16.17.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [76095] Functions runtime initialized. {\"cwd\":\"/home/dale/repos/MealsToGo/functions\",\"node_version\":\"16.17.0\"}"}}
-[debug] [2022-09-20T07:55:34.433Z] [runtime-status] [76095] Beginning invocation function helloWorld! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [76095] Beginning invocation function helloWorld!"}}
-[info] i  functions: Beginning execution of "helloWorld" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"Beginning execution of \"helloWorld\""}}
-[debug] [2022-09-20T07:55:34.434Z] [runtime-status] [76095] Running helloWorld in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [76095] Running helloWorld in signature http"}}
-[debug] [2022-09-20T07:55:34.440Z] [runtime-status] [76095] Listening to port: /tmp/fire_emu_01d3b55b47ecba86.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [76095] Listening to port: /tmp/fire_emu_01d3b55b47ecba86.sock"}}
-[debug] [2022-09-20T07:55:34.540Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
-[debug] [2022-09-20T07:55:34.540Z] [functions] Got req.url=/mealstogo-e2e6a/us-central1/helloWorld, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/mealstogo-e2e6a/us-central1/helloWorld, mapping to path=/"}}
-[debug] [2022-09-20T07:55:34.544Z] [runtime-status] [76095] Ephemeral server handling GET request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [76095] Ephemeral server handling GET request"}}
-[info] >  {"structuredData":true,"severity":"INFO","message":"Hello logs!"} {"user":{"structuredData":true,"severity":"INFO","message":"Hello logs!"},"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"\u001b[90m> \u001b[39m {\"structuredData\":true,\"severity\":\"INFO\",\"message\":\"Hello logs!\"}"}}
-[debug] [2022-09-20T07:55:34.549Z] [runtime-status] [76095] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [76095] Ephemeral server survived."}}
-[info] i  functions: Finished "helloWorld" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"Finished \"helloWorld\" in ~1s"}}
-[debug] [2022-09-20T07:55:34.554Z] [worker-us-central1-helloWorld-3f985e9f-cb95-4a4b-8afd-91c0278fa86a]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-helloWorld-3f985e9f-cb95-4a4b-8afd-91c0278fa86a]: IDLE"}}
-[debug] [2022-09-20T07:55:34.554Z] [work-queue] {"queueLength":0,"workRunningCount":0}
-[debug] [2022-09-20T07:55:51.565Z] File /home/dale/repos/MealsToGo/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /home/dale/repos/MealsToGo/functions/index.js changed, reloading triggers"}}
-[debug] [2022-09-20T07:55:52.567Z] Validating nodejs source
-[debug] [2022-09-20T07:55:53.803Z] > [functions] package.json contents: {
+[error] ⬢  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Malformed arrow function parameter list {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Malformed arrow function parameter list"}}
+[debug] [2022-09-20T09:42:50.293Z] File /home/dale/repos/MealsToGo/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /home/dale/repos/MealsToGo/functions/index.js changed, reloading triggers"}}
+[debug] [2022-09-20T09:42:51.296Z] Validating nodejs source
+[debug] [2022-09-20T09:42:52.462Z] > [functions] package.json contents: {
   "name": "functions",
   "description": "Cloud Functions for Firebase",
   "scripts": {
@@ -237,16 +196,373 @@ Issues? Report them at https://github.com/firebase/firebase-tools/issues and att
   },
   "private": true
 }
-[debug] [2022-09-20T07:55:53.803Z] Building nodejs source
-[debug] [2022-09-20T07:55:53.803Z] Analyzing nodejs backend spec
-[debug] [2022-09-20T07:55:53.803Z] Could not find functions.yaml. Must use http discovery
-[debug] [2022-09-20T07:55:53.975Z] Serving at port 9005
+[debug] [2022-09-20T09:42:52.462Z] Building nodejs source
+[debug] [2022-09-20T09:42:52.462Z] Analyzing nodejs backend spec
+[debug] [2022-09-20T09:42:52.463Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-09-20T09:42:52.626Z] Serving at port 9005
 
-[debug] [2022-09-20T07:55:54.029Z] Got response from /__/functions.yaml {"endpoints":{"helloWorld":{"platform":"gcfv1","httpsTrigger":{},"entryPoint":"helloWorld"}},"specVersion":"v1alpha1","requiredAPIs":[]}
-[debug] [2022-09-20T07:55:54.038Z] shutdown requested via /__/quitquitquit
+[debug] [2022-09-20T09:42:52.683Z] Got response from /__/functions.yaml Failed to generate manifest from function source: SyntaxError: Cannot use import statement outside a module
+[debug] [2022-09-20T09:42:52.683Z] Failed to parse functions.yamlincomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:
+     ... rom function source: SyntaxError: Cannot use import statement ou ... 
+                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: SyntaxError: Cannot use import statement outside a module\n\u0000","position":61,"line":0,"column":61},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:\n     ... rom function source: SyntaxError: Cannot use import statement ou ... \n                                         ^"}
+[debug] [2022-09-20T09:42:52.695Z] shutdown requested via /__/quitquitquit
 
-[info] ✔  functions: Loaded functions definitions from source: helloWorld. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: helloWorld."}}
-[debug] [2022-09-20T07:55:54.045Z] [worker-pool] Shutting down IDLE worker (us-central1-helloWorld) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Shutting down IDLE worker (us-central1-helloWorld)"}}
-[debug] [2022-09-20T07:55:54.046Z] [worker-us-central1-helloWorld-3f985e9f-cb95-4a4b-8afd-91c0278fa86a]: FINISHING {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-helloWorld-3f985e9f-cb95-4a4b-8afd-91c0278fa86a]: FINISHING"}}
-[debug] [2022-09-20T07:55:54.053Z] [worker-us-central1-helloWorld-3f985e9f-cb95-4a4b-8afd-91c0278fa86a]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-helloWorld-3f985e9f-cb95-4a4b-8afd-91c0278fa86a]: exited"}}
-[debug] [2022-09-20T07:55:54.054Z] [worker-us-central1-helloWorld-3f985e9f-cb95-4a4b-8afd-91c0278fa86a]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-helloWorld-3f985e9f-cb95-4a4b-8afd-91c0278fa86a]: FINISHED"}}
+[error] ⬢  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Cannot use import statement outside a module {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Cannot use import statement outside a module"}}
+[debug] [2022-09-20T09:43:27.701Z] File /home/dale/repos/MealsToGo/functions/places/mock/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /home/dale/repos/MealsToGo/functions/places/mock/index.js changed, reloading triggers"}}
+[debug] [2022-09-20T09:43:28.704Z] Validating nodejs source
+[debug] [2022-09-20T09:43:29.853Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-09-20T09:43:29.853Z] Building nodejs source
+[debug] [2022-09-20T09:43:29.853Z] Analyzing nodejs backend spec
+[debug] [2022-09-20T09:43:29.854Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-09-20T09:43:30.010Z] Serving at port 9005
+
+[debug] [2022-09-20T09:43:30.059Z] Got response from /__/functions.yaml Failed to generate manifest from function source: Error: Cannot find module './antwerp.json'
+Require stack:
+- /home/dale/repos/MealsToGo/functions/places/mock/index.js
+- /home/dale/repos/MealsToGo/functions/places/index.js
+- /home/dale/repos/MealsToGo/functions/index.js
+- /home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/runtime/loader.js
+- /home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/bin/firebase-functions.js
+[debug] [2022-09-20T09:43:30.059Z] Failed to parse functions.yamlincomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 56:
+     ... fest from function source: Error: Cannot find module './antwerp. ... 
+                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: Error: Cannot find module './antwerp.json'\nRequire stack:\n- /home/dale/repos/MealsToGo/functions/places/mock/index.js\n- /home/dale/repos/MealsToGo/functions/places/index.js\n- /home/dale/repos/MealsToGo/functions/index.js\n- /home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/runtime/loader.js\n- /home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/bin/firebase-functions.js\n\u0000","position":55,"line":0,"column":55},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 56:\n     ... fest from function source: Error: Cannot find module './antwerp. ... \n                                         ^"}
+[debug] [2022-09-20T09:43:30.067Z] shutdown requested via /__/quitquitquit
+
+[error] ⬢  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: Error: Cannot find module './antwerp.json'
+Require stack:
+- /home/dale/repos/MealsToGo/functions/places/mock/index.js
+- /home/dale/repos/MealsToGo/functions/places/index.js
+- /home/dale/repos/MealsToGo/functions/index.js
+- /home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/runtime/loader.js
+- /home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/bin/firebase-functions.js {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: Error: Cannot find module './antwerp.json'\nRequire stack:\n- /home/dale/repos/MealsToGo/functions/places/mock/index.js\n- /home/dale/repos/MealsToGo/functions/places/index.js\n- /home/dale/repos/MealsToGo/functions/index.js\n- /home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/runtime/loader.js\n- /home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/bin/firebase-functions.js"}}
+[debug] [2022-09-20T09:43:46.634Z] File /home/dale/repos/MealsToGo/functions/places/mock/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /home/dale/repos/MealsToGo/functions/places/mock/index.js changed, reloading triggers"}}
+[debug] [2022-09-20T09:43:47.637Z] Validating nodejs source
+[debug] [2022-09-20T09:43:48.716Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-09-20T09:43:48.716Z] Building nodejs source
+[debug] [2022-09-20T09:43:48.716Z] Analyzing nodejs backend spec
+[debug] [2022-09-20T09:43:48.717Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-09-20T09:43:48.879Z] Serving at port 9005
+
+[debug] [2022-09-20T09:43:48.932Z] Got response from /__/functions.yaml {"endpoints":{"geocode":{"platform":"gcfv1","httpsTrigger":{},"entryPoint":"geocode"},"placesNearby":{"platform":"gcfv1","httpsTrigger":{},"entryPoint":"placesNearby"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2022-09-20T09:43:48.941Z] shutdown requested via /__/quitquitquit
+
+[info] ✔  functions: Loaded functions definitions from source: geocode, placesNearby. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: geocode, placesNearby."}}
+[info] ✔  functions[us-central1-geocode]: http function initialized (http://localhost:5001/mealstogo-e2e6a/us-central1/geocode). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://localhost:5001/mealstogo-e2e6a/us-central1/geocode)."}}
+[info] ✔  functions[us-central1-placesNearby]: http function initialized (http://localhost:5001/mealstogo-e2e6a/us-central1/placesNearby). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://localhost:5001/mealstogo-e2e6a/us-central1/placesNearby)."}}
+[debug] [2022-09-20T09:43:57.739Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-09-20T09:43:57.740Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-09-20T09:43:57.740Z] Accepted request GET /mealstogo-e2e6a/us-central1/placesNearby --> us-central1-placesNearby
+[debug] [2022-09-20T09:43:57.752Z] [worker-pool] addWorker(us-central1-placesNearby) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-placesNearby)"}}
+[debug] [2022-09-20T09:43:57.752Z] [worker-pool] Adding worker with key us-central1-placesNearby, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-placesNearby, total=1"}}
+[debug] [2022-09-20T09:43:57.752Z] [worker-pool] submitWork(triggerId=us-central1-placesNearby) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-placesNearby)"}}
+[debug] [2022-09-20T09:43:57.753Z] [worker-us-central1-placesNearby-9f6cdfa1-6204-4a9d-8973-ddde9871b4a3]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-placesNearby-9f6cdfa1-6204-4a9d-8973-ddde9871b4a3]: BUSY"}}
+[debug] [2022-09-20T09:43:58.502Z] [runtime-status] [81918] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"/home/dale/repos/MealsToGo/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [81918] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"/home/dale/repos/MealsToGo/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-09-20T09:43:58.503Z] [runtime-status] [81918] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.23.0","resolution":"/home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [81918] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.23.0\",\"resolution\":\"/home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-09-20T09:43:58.504Z] [runtime-status] [81918] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [81918] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-09-20T09:43:58.505Z] [runtime-status] [81918] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.23.0","resolution":"/home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [81918] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.23.0\",\"resolution\":\"/home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-09-20T09:43:58.541Z] [runtime-status] [81918] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [81918] Checked functions.config() {\"config\":{}}"}}
+[debug] [2022-09-20T09:43:58.541Z] [runtime-status] [81918] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.23.0","resolution":"/home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [81918] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.23.0\",\"resolution\":\"/home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/index.js\"}}"}}
+[debug] [2022-09-20T09:43:58.544Z] [runtime-status] [81918] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.23.0","resolution":"/home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [81918] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.23.0\",\"resolution\":\"/home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-09-20T09:43:58.544Z] [runtime-status] [81918] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"/home/dale/repos/MealsToGo/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [81918] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"/home/dale/repos/MealsToGo/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-09-20T09:43:58.545Z] [runtime-status] [81918] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.23.0","resolution":"/home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [81918] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.23.0\",\"resolution\":\"/home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-09-20T09:43:58.545Z] [runtime-status] [81918] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.3.0","resolution":"/home/dale/repos/MealsToGo/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [81918] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"/home/dale/repos/MealsToGo/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
+[debug] [2022-09-20T09:43:58.545Z] [runtime-status] [81918] Functions runtime initialized. {"cwd":"/home/dale/repos/MealsToGo/functions","node_version":"16.17.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [81918] Functions runtime initialized. {\"cwd\":\"/home/dale/repos/MealsToGo/functions\",\"node_version\":\"16.17.0\"}"}}
+[debug] [2022-09-20T09:43:58.553Z] [runtime-status] [81918] Beginning invocation function placesNearby! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [81918] Beginning invocation function placesNearby!"}}
+[info] i  functions: Beginning execution of "placesNearby" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"Beginning execution of \"placesNearby\""}}
+[debug] [2022-09-20T09:43:58.553Z] [runtime-status] [81918] Running placesNearby in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [81918] Running placesNearby in signature http"}}
+[debug] [2022-09-20T09:43:58.560Z] [runtime-status] [81918] Listening to port: /tmp/fire_emu_509c8a8362ae2694.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [81918] Listening to port: /tmp/fire_emu_509c8a8362ae2694.sock"}}
+[debug] [2022-09-20T09:43:58.570Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-09-20T09:43:58.571Z] [functions] Got req.url=/mealstogo-e2e6a/us-central1/placesNearby, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/mealstogo-e2e6a/us-central1/placesNearby, mapping to path=/"}}
+[debug] [2022-09-20T09:43:58.573Z] [runtime-status] [81918] Ephemeral server handling GET request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [81918] Ephemeral server handling GET request"}}
+[debug] [2022-09-20T09:43:58.576Z] [runtime-status] [81918] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [81918] Ephemeral server survived."}}
+[info] i  functions: Finished "placesNearby" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"Finished \"placesNearby\" in ~1s"}}
+[debug] [2022-09-20T09:43:58.578Z] [worker-us-central1-placesNearby-9f6cdfa1-6204-4a9d-8973-ddde9871b4a3]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-placesNearby-9f6cdfa1-6204-4a9d-8973-ddde9871b4a3]: IDLE"}}
+[debug] [2022-09-20T09:43:58.579Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-09-20T09:44:27.548Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-09-20T09:44:27.548Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-09-20T09:44:27.551Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-09-20T09:44:50.861Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-09-20T09:44:50.862Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-09-20T09:44:50.862Z] Accepted request GET /mealstogo-e2e6a/us-central1/placesNearby?location=37.7749295,-122.4194155 --> us-central1-placesNearby
+[debug] [2022-09-20T09:44:50.863Z] [worker-pool] submitWork(triggerId=us-central1-placesNearby) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-placesNearby)"}}
+[debug] [2022-09-20T09:44:50.864Z] [worker-us-central1-placesNearby-9f6cdfa1-6204-4a9d-8973-ddde9871b4a3]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-placesNearby-9f6cdfa1-6204-4a9d-8973-ddde9871b4a3]: BUSY"}}
+[debug] [2022-09-20T09:44:50.868Z] [runtime-status] [81918] Beginning invocation function placesNearby! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [81918] Beginning invocation function placesNearby!"}}
+[info] i  functions: Beginning execution of "placesNearby" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"Beginning execution of \"placesNearby\""}}
+[debug] [2022-09-20T09:44:50.869Z] [runtime-status] [81918] Running placesNearby in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [81918] Running placesNearby in signature http"}}
+[debug] [2022-09-20T09:44:50.871Z] [runtime-status] [81918] Listening to port: /tmp/fire_emu_509c8a8362ae2694.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [81918] Listening to port: /tmp/fire_emu_509c8a8362ae2694.sock"}}
+[debug] [2022-09-20T09:44:50.971Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-09-20T09:44:50.971Z] [functions] Got req.url=/mealstogo-e2e6a/us-central1/placesNearby?location=37.7749295,-122.4194155, mapping to path=/?location=37.7749295,-122.4194155 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/mealstogo-e2e6a/us-central1/placesNearby?location=37.7749295,-122.4194155, mapping to path=/?location=37.7749295,-122.4194155"}}
+[debug] [2022-09-20T09:44:50.975Z] [runtime-status] [81918] Ephemeral server handling GET request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [81918] Ephemeral server handling GET request"}}
+[debug] [2022-09-20T09:44:50.979Z] [runtime-status] [81918] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [81918] Ephemeral server survived."}}
+[info] i  functions: Finished "placesNearby" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"Finished \"placesNearby\" in ~1s"}}
+[debug] [2022-09-20T09:44:50.979Z] [worker-us-central1-placesNearby-9f6cdfa1-6204-4a9d-8973-ddde9871b4a3]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-placesNearby-9f6cdfa1-6204-4a9d-8973-ddde9871b4a3]: IDLE"}}
+[debug] [2022-09-20T09:44:50.979Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-09-20T09:46:28.817Z] File /home/dale/repos/MealsToGo/functions/places/mock/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /home/dale/repos/MealsToGo/functions/places/mock/index.js changed, reloading triggers"}}
+[debug] [2022-09-20T09:46:29.819Z] Validating nodejs source
+[debug] [2022-09-20T09:46:31.062Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-09-20T09:46:31.062Z] Building nodejs source
+[debug] [2022-09-20T09:46:31.062Z] Analyzing nodejs backend spec
+[debug] [2022-09-20T09:46:31.062Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-09-20T09:46:31.230Z] Serving at port 9005
+
+[debug] [2022-09-20T09:46:31.318Z] Got response from /__/functions.yaml {"endpoints":{"geocode":{"platform":"gcfv1","httpsTrigger":{},"entryPoint":"geocode"},"placesNearby":{"platform":"gcfv1","httpsTrigger":{},"entryPoint":"placesNearby"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2022-09-20T09:46:31.326Z] shutdown requested via /__/quitquitquit
+
+[info] ✔  functions: Loaded functions definitions from source: geocode, placesNearby. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: geocode, placesNearby."}}
+[debug] [2022-09-20T09:46:31.336Z] [worker-pool] Shutting down IDLE worker (us-central1-placesNearby) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Shutting down IDLE worker (us-central1-placesNearby)"}}
+[debug] [2022-09-20T09:46:31.336Z] [worker-us-central1-placesNearby-9f6cdfa1-6204-4a9d-8973-ddde9871b4a3]: FINISHING {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-placesNearby-9f6cdfa1-6204-4a9d-8973-ddde9871b4a3]: FINISHING"}}
+[debug] [2022-09-20T09:46:31.342Z] [worker-us-central1-placesNearby-9f6cdfa1-6204-4a9d-8973-ddde9871b4a3]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-placesNearby-9f6cdfa1-6204-4a9d-8973-ddde9871b4a3]: exited"}}
+[debug] [2022-09-20T09:46:31.342Z] [worker-us-central1-placesNearby-9f6cdfa1-6204-4a9d-8973-ddde9871b4a3]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-placesNearby-9f6cdfa1-6204-4a9d-8973-ddde9871b4a3]: FINISHED"}}
+[debug] [2022-09-20T09:48:21.385Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-09-20T09:48:21.385Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-09-20T09:48:21.386Z] Accepted request GET /mealstogo-e2e6a/us-central1/placesNearby?location=37.7749295,-122.4194155 --> us-central1-placesNearby
+[debug] [2022-09-20T09:48:21.386Z] [worker-pool] Cleaned up workers for us-central1-placesNearby: 1 --> 0 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Cleaned up workers for us-central1-placesNearby: 1 --> 0"}}
+[debug] [2022-09-20T09:48:21.399Z] [worker-pool] addWorker(us-central1-placesNearby) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-placesNearby)"}}
+[debug] [2022-09-20T09:48:21.399Z] [worker-pool] Adding worker with key us-central1-placesNearby, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-placesNearby, total=1"}}
+[debug] [2022-09-20T09:48:21.400Z] [worker-pool] submitWork(triggerId=us-central1-placesNearby) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-placesNearby)"}}
+[debug] [2022-09-20T09:48:21.400Z] [worker-us-central1-placesNearby-f4ef0d2b-15c8-45da-b078-43a9cc078704]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-placesNearby-f4ef0d2b-15c8-45da-b078-43a9cc078704]: BUSY"}}
+[debug] [2022-09-20T09:48:22.270Z] [runtime-status] [82144] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"/home/dale/repos/MealsToGo/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [82144] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"/home/dale/repos/MealsToGo/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-09-20T09:48:22.271Z] [runtime-status] [82144] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.23.0","resolution":"/home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [82144] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.23.0\",\"resolution\":\"/home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-09-20T09:48:22.272Z] [runtime-status] [82144] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [82144] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-09-20T09:48:22.273Z] [runtime-status] [82144] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.23.0","resolution":"/home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [82144] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.23.0\",\"resolution\":\"/home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-09-20T09:48:22.318Z] [runtime-status] [82144] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [82144] Checked functions.config() {\"config\":{}}"}}
+[debug] [2022-09-20T09:48:22.318Z] [runtime-status] [82144] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.23.0","resolution":"/home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [82144] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.23.0\",\"resolution\":\"/home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/index.js\"}}"}}
+[debug] [2022-09-20T09:48:22.324Z] [runtime-status] [82144] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.23.0","resolution":"/home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [82144] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.23.0\",\"resolution\":\"/home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-09-20T09:48:22.324Z] [runtime-status] [82144] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"/home/dale/repos/MealsToGo/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [82144] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"/home/dale/repos/MealsToGo/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-09-20T09:48:22.324Z] [runtime-status] [82144] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.23.0","resolution":"/home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [82144] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.23.0\",\"resolution\":\"/home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-09-20T09:48:22.324Z] [runtime-status] [82144] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.3.0","resolution":"/home/dale/repos/MealsToGo/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [82144] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"/home/dale/repos/MealsToGo/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
+[debug] [2022-09-20T09:48:22.324Z] [runtime-status] [82144] Functions runtime initialized. {"cwd":"/home/dale/repos/MealsToGo/functions","node_version":"16.17.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [82144] Functions runtime initialized. {\"cwd\":\"/home/dale/repos/MealsToGo/functions\",\"node_version\":\"16.17.0\"}"}}
+[debug] [2022-09-20T09:48:22.331Z] [runtime-status] [82144] Beginning invocation function placesNearby! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [82144] Beginning invocation function placesNearby!"}}
+[info] i  functions: Beginning execution of "placesNearby" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"Beginning execution of \"placesNearby\""}}
+[debug] [2022-09-20T09:48:22.332Z] [runtime-status] [82144] Running placesNearby in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [82144] Running placesNearby in signature http"}}
+[debug] [2022-09-20T09:48:22.339Z] [runtime-status] [82144] Listening to port: /tmp/fire_emu_d4d27ce4e3ef207f.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [82144] Listening to port: /tmp/fire_emu_d4d27ce4e3ef207f.sock"}}
+[debug] [2022-09-20T09:48:22.419Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-09-20T09:48:22.419Z] [functions] Got req.url=/mealstogo-e2e6a/us-central1/placesNearby?location=37.7749295,-122.4194155, mapping to path=/?location=37.7749295,-122.4194155 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/mealstogo-e2e6a/us-central1/placesNearby?location=37.7749295,-122.4194155, mapping to path=/?location=37.7749295,-122.4194155"}}
+[debug] [2022-09-20T09:48:22.424Z] [runtime-status] [82144] Ephemeral server handling GET request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [82144] Ephemeral server handling GET request"}}
+[debug] [2022-09-20T09:48:22.429Z] [runtime-status] [82144] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [82144] Ephemeral server survived."}}
+[info] i  functions: Finished "placesNearby" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"Finished \"placesNearby\" in ~1s"}}
+[debug] [2022-09-20T09:48:22.431Z] [worker-us-central1-placesNearby-f4ef0d2b-15c8-45da-b078-43a9cc078704]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-placesNearby-f4ef0d2b-15c8-45da-b078-43a9cc078704]: IDLE"}}
+[debug] [2022-09-20T09:48:22.431Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-09-20T09:52:05.993Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-09-20T09:52:05.993Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-09-20T09:52:05.994Z] Accepted request GET /mealstogo-e2e6a/us-central1/geocode?city=san%20francisco --> us-central1-geocode
+[debug] [2022-09-20T09:52:06.001Z] [worker-pool] addWorker(us-central1-geocode) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-geocode)"}}
+[debug] [2022-09-20T09:52:06.001Z] [worker-pool] Adding worker with key us-central1-geocode, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-geocode, total=1"}}
+[debug] [2022-09-20T09:52:06.001Z] [worker-pool] submitWork(triggerId=us-central1-geocode) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-geocode)"}}
+[debug] [2022-09-20T09:52:06.001Z] [worker-us-central1-geocode-51d06798-90fe-46e3-b827-5ca22a725bbb]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-geocode-51d06798-90fe-46e3-b827-5ca22a725bbb]: BUSY"}}
+[debug] [2022-09-20T09:52:06.780Z] [runtime-status] [82275] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"/home/dale/repos/MealsToGo/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"[runtime-status] [82275] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"/home/dale/repos/MealsToGo/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-09-20T09:52:06.781Z] [runtime-status] [82275] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.23.0","resolution":"/home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"[runtime-status] [82275] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.23.0\",\"resolution\":\"/home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-09-20T09:52:06.782Z] [runtime-status] [82275] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"[runtime-status] [82275] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-09-20T09:52:06.783Z] [runtime-status] [82275] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.23.0","resolution":"/home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"[runtime-status] [82275] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.23.0\",\"resolution\":\"/home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-09-20T09:52:06.815Z] [runtime-status] [82275] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"[runtime-status] [82275] Checked functions.config() {\"config\":{}}"}}
+[debug] [2022-09-20T09:52:06.815Z] [runtime-status] [82275] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.23.0","resolution":"/home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"[runtime-status] [82275] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.23.0\",\"resolution\":\"/home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/index.js\"}}"}}
+[debug] [2022-09-20T09:52:06.816Z] [runtime-status] [82275] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.23.0","resolution":"/home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"[runtime-status] [82275] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.23.0\",\"resolution\":\"/home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-09-20T09:52:06.818Z] [runtime-status] [82275] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"/home/dale/repos/MealsToGo/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"[runtime-status] [82275] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"/home/dale/repos/MealsToGo/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-09-20T09:52:06.818Z] [runtime-status] [82275] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.23.0","resolution":"/home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"[runtime-status] [82275] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.23.0\",\"resolution\":\"/home/dale/repos/MealsToGo/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-09-20T09:52:06.818Z] [runtime-status] [82275] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.3.0","resolution":"/home/dale/repos/MealsToGo/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"[runtime-status] [82275] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"/home/dale/repos/MealsToGo/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
+[debug] [2022-09-20T09:52:06.819Z] [runtime-status] [82275] Functions runtime initialized. {"cwd":"/home/dale/repos/MealsToGo/functions","node_version":"16.17.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"[runtime-status] [82275] Functions runtime initialized. {\"cwd\":\"/home/dale/repos/MealsToGo/functions\",\"node_version\":\"16.17.0\"}"}}
+[debug] [2022-09-20T09:52:06.824Z] [runtime-status] [82275] Beginning invocation function geocode! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"[runtime-status] [82275] Beginning invocation function geocode!"}}
+[info] i  functions: Beginning execution of "geocode" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"Beginning execution of \"geocode\""}}
+[debug] [2022-09-20T09:52:06.825Z] [runtime-status] [82275] Running geocode in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"[runtime-status] [82275] Running geocode in signature http"}}
+[debug] [2022-09-20T09:52:06.831Z] [runtime-status] [82275] Listening to port: /tmp/fire_emu_e7cc58c15364c16f.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"[runtime-status] [82275] Listening to port: /tmp/fire_emu_e7cc58c15364c16f.sock"}}
+[debug] [2022-09-20T09:52:06.919Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-09-20T09:52:06.920Z] [functions] Got req.url=/mealstogo-e2e6a/us-central1/geocode?city=san%20francisco, mapping to path=/?city=san%20francisco {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/mealstogo-e2e6a/us-central1/geocode?city=san%20francisco, mapping to path=/?city=san%20francisco"}}
+[debug] [2022-09-20T09:52:06.923Z] [runtime-status] [82275] Ephemeral server handling GET request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"[runtime-status] [82275] Ephemeral server handling GET request"}}
+[debug] [2022-09-20T09:52:06.927Z] [runtime-status] [82275] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"[runtime-status] [82275] Ephemeral server survived."}}
+[info] i  functions: Finished "geocode" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"Finished \"geocode\" in ~1s"}}
+[debug] [2022-09-20T09:52:06.928Z] [worker-us-central1-geocode-51d06798-90fe-46e3-b827-5ca22a725bbb]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-geocode-51d06798-90fe-46e3-b827-5ca22a725bbb]: IDLE"}}
+[debug] [2022-09-20T09:52:06.928Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-09-20T09:52:48.185Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-09-20T09:52:48.185Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-09-20T09:52:48.185Z] Accepted request GET /mealstogo-e2e6a/us-central1/placesNearby?location=37.7749295,-122.4194155 --> us-central1-placesNearby
+[debug] [2022-09-20T09:52:48.185Z] [worker-pool] submitWork(triggerId=us-central1-placesNearby) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-placesNearby)"}}
+[debug] [2022-09-20T09:52:48.185Z] [worker-us-central1-placesNearby-f4ef0d2b-15c8-45da-b078-43a9cc078704]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-placesNearby-f4ef0d2b-15c8-45da-b078-43a9cc078704]: BUSY"}}
+[debug] [2022-09-20T09:52:48.186Z] [runtime-status] [82144] Beginning invocation function placesNearby! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [82144] Beginning invocation function placesNearby!"}}
+[info] i  functions: Beginning execution of "placesNearby" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"Beginning execution of \"placesNearby\""}}
+[debug] [2022-09-20T09:52:48.187Z] [runtime-status] [82144] Running placesNearby in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [82144] Running placesNearby in signature http"}}
+[debug] [2022-09-20T09:52:48.189Z] [runtime-status] [82144] Listening to port: /tmp/fire_emu_d4d27ce4e3ef207f.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [82144] Listening to port: /tmp/fire_emu_d4d27ce4e3ef207f.sock"}}
+[debug] [2022-09-20T09:52:48.294Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-09-20T09:52:48.295Z] [functions] Got req.url=/mealstogo-e2e6a/us-central1/placesNearby?location=37.7749295,-122.4194155, mapping to path=/?location=37.7749295,-122.4194155 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/mealstogo-e2e6a/us-central1/placesNearby?location=37.7749295,-122.4194155, mapping to path=/?location=37.7749295,-122.4194155"}}
+[debug] [2022-09-20T09:52:48.297Z] [runtime-status] [82144] Ephemeral server handling GET request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [82144] Ephemeral server handling GET request"}}
+[debug] [2022-09-20T09:52:48.300Z] [runtime-status] [82144] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [82144] Ephemeral server survived."}}
+[info] i  functions: Finished "placesNearby" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"Finished \"placesNearby\" in ~1s"}}
+[debug] [2022-09-20T09:52:48.300Z] [worker-us-central1-placesNearby-f4ef0d2b-15c8-45da-b078-43a9cc078704]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-placesNearby-f4ef0d2b-15c8-45da-b078-43a9cc078704]: IDLE"}}
+[debug] [2022-09-20T09:52:48.300Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-09-20T09:55:28.707Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-09-20T09:55:28.707Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-09-20T09:55:28.707Z] Accepted request GET /mealstogo-e2e6a/us-central1/geocode?city=san%20francisco --> us-central1-geocode
+[debug] [2022-09-20T09:55:28.708Z] [worker-pool] submitWork(triggerId=us-central1-geocode) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-geocode)"}}
+[debug] [2022-09-20T09:55:28.708Z] [worker-us-central1-geocode-51d06798-90fe-46e3-b827-5ca22a725bbb]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-geocode-51d06798-90fe-46e3-b827-5ca22a725bbb]: BUSY"}}
+[debug] [2022-09-20T09:55:28.709Z] [runtime-status] [82275] Beginning invocation function geocode! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"[runtime-status] [82275] Beginning invocation function geocode!"}}
+[info] i  functions: Beginning execution of "geocode" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"Beginning execution of \"geocode\""}}
+[debug] [2022-09-20T09:55:28.709Z] [runtime-status] [82275] Running geocode in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"[runtime-status] [82275] Running geocode in signature http"}}
+[debug] [2022-09-20T09:55:28.712Z] [runtime-status] [82275] Listening to port: /tmp/fire_emu_e7cc58c15364c16f.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"[runtime-status] [82275] Listening to port: /tmp/fire_emu_e7cc58c15364c16f.sock"}}
+[debug] [2022-09-20T09:55:28.815Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-09-20T09:55:28.815Z] [functions] Got req.url=/mealstogo-e2e6a/us-central1/geocode?city=san%20francisco, mapping to path=/?city=san%20francisco {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/mealstogo-e2e6a/us-central1/geocode?city=san%20francisco, mapping to path=/?city=san%20francisco"}}
+[debug] [2022-09-20T09:55:28.820Z] [runtime-status] [82275] Ephemeral server handling GET request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"[runtime-status] [82275] Ephemeral server handling GET request"}}
+[debug] [2022-09-20T09:55:28.820Z] [runtime-status] [82275] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"[runtime-status] [82275] Ephemeral server survived."}}
+[info] i  functions: Finished "geocode" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"Finished \"geocode\" in ~1s"}}
+[debug] [2022-09-20T09:55:28.820Z] [worker-us-central1-geocode-51d06798-90fe-46e3-b827-5ca22a725bbb]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-geocode-51d06798-90fe-46e3-b827-5ca22a725bbb]: IDLE"}}
+[debug] [2022-09-20T09:55:28.821Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-09-20T09:55:29.531Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-09-20T09:55:29.531Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-09-20T09:55:29.531Z] Accepted request GET /mealstogo-e2e6a/us-central1/placesNearby?location=37.7749295,-122.4194155 --> us-central1-placesNearby
+[debug] [2022-09-20T09:55:29.531Z] [worker-pool] submitWork(triggerId=us-central1-placesNearby) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-placesNearby)"}}
+[debug] [2022-09-20T09:55:29.531Z] [worker-us-central1-placesNearby-f4ef0d2b-15c8-45da-b078-43a9cc078704]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-placesNearby-f4ef0d2b-15c8-45da-b078-43a9cc078704]: BUSY"}}
+[debug] [2022-09-20T09:55:29.532Z] [runtime-status] [82144] Beginning invocation function placesNearby! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [82144] Beginning invocation function placesNearby!"}}
+[info] i  functions: Beginning execution of "placesNearby" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"Beginning execution of \"placesNearby\""}}
+[debug] [2022-09-20T09:55:29.533Z] [runtime-status] [82144] Running placesNearby in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [82144] Running placesNearby in signature http"}}
+[debug] [2022-09-20T09:55:29.534Z] [runtime-status] [82144] Listening to port: /tmp/fire_emu_d4d27ce4e3ef207f.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [82144] Listening to port: /tmp/fire_emu_d4d27ce4e3ef207f.sock"}}
+[debug] [2022-09-20T09:55:29.637Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-09-20T09:55:29.637Z] [functions] Got req.url=/mealstogo-e2e6a/us-central1/placesNearby?location=37.7749295,-122.4194155, mapping to path=/?location=37.7749295,-122.4194155 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/mealstogo-e2e6a/us-central1/placesNearby?location=37.7749295,-122.4194155, mapping to path=/?location=37.7749295,-122.4194155"}}
+[debug] [2022-09-20T09:55:29.639Z] [runtime-status] [82144] Ephemeral server handling GET request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [82144] Ephemeral server handling GET request"}}
+[debug] [2022-09-20T09:55:29.641Z] [runtime-status] [82144] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [82144] Ephemeral server survived."}}
+[info] i  functions: Finished "placesNearby" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"Finished \"placesNearby\" in ~1s"}}
+[debug] [2022-09-20T09:55:29.642Z] [worker-us-central1-placesNearby-f4ef0d2b-15c8-45da-b078-43a9cc078704]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-placesNearby-f4ef0d2b-15c8-45da-b078-43a9cc078704]: IDLE"}}
+[debug] [2022-09-20T09:55:29.642Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-09-20T09:55:41.431Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-09-20T09:55:41.431Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-09-20T09:55:41.431Z] Accepted request GET /mealstogo-e2e6a/us-central1/geocode?city=antwerp --> us-central1-geocode
+[debug] [2022-09-20T09:55:41.431Z] [worker-pool] submitWork(triggerId=us-central1-geocode) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-geocode)"}}
+[debug] [2022-09-20T09:55:41.431Z] [worker-us-central1-geocode-51d06798-90fe-46e3-b827-5ca22a725bbb]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-geocode-51d06798-90fe-46e3-b827-5ca22a725bbb]: BUSY"}}
+[debug] [2022-09-20T09:55:41.432Z] [runtime-status] [82275] Beginning invocation function geocode! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"[runtime-status] [82275] Beginning invocation function geocode!"}}
+[info] i  functions: Beginning execution of "geocode" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"Beginning execution of \"geocode\""}}
+[debug] [2022-09-20T09:55:41.434Z] [runtime-status] [82275] Running geocode in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"[runtime-status] [82275] Running geocode in signature http"}}
+[debug] [2022-09-20T09:55:41.438Z] [runtime-status] [82275] Listening to port: /tmp/fire_emu_e7cc58c15364c16f.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"[runtime-status] [82275] Listening to port: /tmp/fire_emu_e7cc58c15364c16f.sock"}}
+[debug] [2022-09-20T09:55:41.539Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-09-20T09:55:41.539Z] [functions] Got req.url=/mealstogo-e2e6a/us-central1/geocode?city=antwerp, mapping to path=/?city=antwerp {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/mealstogo-e2e6a/us-central1/geocode?city=antwerp, mapping to path=/?city=antwerp"}}
+[debug] [2022-09-20T09:55:41.541Z] [runtime-status] [82275] Ephemeral server handling GET request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"[runtime-status] [82275] Ephemeral server handling GET request"}}
+[debug] [2022-09-20T09:55:41.543Z] [runtime-status] [82275] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"[runtime-status] [82275] Ephemeral server survived."}}
+[info] i  functions: Finished "geocode" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"Finished \"geocode\" in ~1s"}}
+[debug] [2022-09-20T09:55:41.543Z] [worker-us-central1-geocode-51d06798-90fe-46e3-b827-5ca22a725bbb]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-geocode-51d06798-90fe-46e3-b827-5ca22a725bbb]: IDLE"}}
+[debug] [2022-09-20T09:55:41.543Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-09-20T09:55:43.060Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-09-20T09:55:43.060Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-09-20T09:55:43.060Z] Accepted request GET /mealstogo-e2e6a/us-central1/placesNearby?location=51.219448,4.402464 --> us-central1-placesNearby
+[debug] [2022-09-20T09:55:43.060Z] [worker-pool] submitWork(triggerId=us-central1-placesNearby) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-placesNearby)"}}
+[debug] [2022-09-20T09:55:43.060Z] [worker-us-central1-placesNearby-f4ef0d2b-15c8-45da-b078-43a9cc078704]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-placesNearby-f4ef0d2b-15c8-45da-b078-43a9cc078704]: BUSY"}}
+[debug] [2022-09-20T09:55:43.061Z] [runtime-status] [82144] Beginning invocation function placesNearby! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [82144] Beginning invocation function placesNearby!"}}
+[info] i  functions: Beginning execution of "placesNearby" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"Beginning execution of \"placesNearby\""}}
+[debug] [2022-09-20T09:55:43.062Z] [runtime-status] [82144] Running placesNearby in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [82144] Running placesNearby in signature http"}}
+[debug] [2022-09-20T09:55:43.063Z] [runtime-status] [82144] Listening to port: /tmp/fire_emu_d4d27ce4e3ef207f.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [82144] Listening to port: /tmp/fire_emu_d4d27ce4e3ef207f.sock"}}
+[debug] [2022-09-20T09:55:43.166Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-09-20T09:55:43.167Z] [functions] Got req.url=/mealstogo-e2e6a/us-central1/placesNearby?location=51.219448,4.402464, mapping to path=/?location=51.219448,4.402464 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/mealstogo-e2e6a/us-central1/placesNearby?location=51.219448,4.402464, mapping to path=/?location=51.219448,4.402464"}}
+[debug] [2022-09-20T09:55:43.169Z] [runtime-status] [82144] Ephemeral server handling GET request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [82144] Ephemeral server handling GET request"}}
+[debug] [2022-09-20T09:55:43.172Z] [runtime-status] [82144] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [82144] Ephemeral server survived."}}
+[info] i  functions: Finished "placesNearby" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"Finished \"placesNearby\" in ~1s"}}
+[debug] [2022-09-20T09:55:43.173Z] [worker-us-central1-placesNearby-f4ef0d2b-15c8-45da-b078-43a9cc078704]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-placesNearby-f4ef0d2b-15c8-45da-b078-43a9cc078704]: IDLE"}}
+[debug] [2022-09-20T09:55:43.173Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-09-20T09:55:55.554Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-09-20T09:55:55.554Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-09-20T09:55:55.554Z] Accepted request GET /mealstogo-e2e6a/us-central1/geocode?city=chicago --> us-central1-geocode
+[debug] [2022-09-20T09:55:55.554Z] [worker-pool] submitWork(triggerId=us-central1-geocode) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-geocode)"}}
+[debug] [2022-09-20T09:55:55.555Z] [worker-us-central1-geocode-51d06798-90fe-46e3-b827-5ca22a725bbb]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-geocode-51d06798-90fe-46e3-b827-5ca22a725bbb]: BUSY"}}
+[debug] [2022-09-20T09:55:55.555Z] [runtime-status] [82275] Beginning invocation function geocode! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"[runtime-status] [82275] Beginning invocation function geocode!"}}
+[info] i  functions: Beginning execution of "geocode" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"Beginning execution of \"geocode\""}}
+[debug] [2022-09-20T09:55:55.556Z] [runtime-status] [82275] Running geocode in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"[runtime-status] [82275] Running geocode in signature http"}}
+[debug] [2022-09-20T09:55:55.557Z] [runtime-status] [82275] Listening to port: /tmp/fire_emu_e7cc58c15364c16f.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"[runtime-status] [82275] Listening to port: /tmp/fire_emu_e7cc58c15364c16f.sock"}}
+[debug] [2022-09-20T09:55:55.662Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-09-20T09:55:55.662Z] [functions] Got req.url=/mealstogo-e2e6a/us-central1/geocode?city=chicago, mapping to path=/?city=chicago {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/mealstogo-e2e6a/us-central1/geocode?city=chicago, mapping to path=/?city=chicago"}}
+[debug] [2022-09-20T09:55:55.665Z] [runtime-status] [82275] Ephemeral server handling GET request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"[runtime-status] [82275] Ephemeral server handling GET request"}}
+[debug] [2022-09-20T09:55:55.666Z] [runtime-status] [82275] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"[runtime-status] [82275] Ephemeral server survived."}}
+[info] i  functions: Finished "geocode" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"Finished \"geocode\" in ~1s"}}
+[debug] [2022-09-20T09:55:55.666Z] [worker-us-central1-geocode-51d06798-90fe-46e3-b827-5ca22a725bbb]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-geocode-51d06798-90fe-46e3-b827-5ca22a725bbb]: IDLE"}}
+[debug] [2022-09-20T09:55:55.666Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-09-20T09:55:57.121Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-09-20T09:55:57.121Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-09-20T09:55:57.121Z] Accepted request GET /mealstogo-e2e6a/us-central1/placesNearby?location=41.878113,-87.629799 --> us-central1-placesNearby
+[debug] [2022-09-20T09:55:57.121Z] [worker-pool] submitWork(triggerId=us-central1-placesNearby) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-placesNearby)"}}
+[debug] [2022-09-20T09:55:57.121Z] [worker-us-central1-placesNearby-f4ef0d2b-15c8-45da-b078-43a9cc078704]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-placesNearby-f4ef0d2b-15c8-45da-b078-43a9cc078704]: BUSY"}}
+[debug] [2022-09-20T09:55:57.122Z] [runtime-status] [82144] Beginning invocation function placesNearby! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [82144] Beginning invocation function placesNearby!"}}
+[info] i  functions: Beginning execution of "placesNearby" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"Beginning execution of \"placesNearby\""}}
+[debug] [2022-09-20T09:55:57.123Z] [runtime-status] [82144] Running placesNearby in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [82144] Running placesNearby in signature http"}}
+[debug] [2022-09-20T09:55:57.123Z] [runtime-status] [82144] Listening to port: /tmp/fire_emu_d4d27ce4e3ef207f.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [82144] Listening to port: /tmp/fire_emu_d4d27ce4e3ef207f.sock"}}
+[debug] [2022-09-20T09:55:57.229Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-09-20T09:55:57.229Z] [functions] Got req.url=/mealstogo-e2e6a/us-central1/placesNearby?location=41.878113,-87.629799, mapping to path=/?location=41.878113,-87.629799 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/mealstogo-e2e6a/us-central1/placesNearby?location=41.878113,-87.629799, mapping to path=/?location=41.878113,-87.629799"}}
+[debug] [2022-09-20T09:55:57.232Z] [runtime-status] [82144] Ephemeral server handling GET request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [82144] Ephemeral server handling GET request"}}
+[debug] [2022-09-20T09:55:57.234Z] [runtime-status] [82144] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [82144] Ephemeral server survived."}}
+[info] i  functions: Finished "placesNearby" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"Finished \"placesNearby\" in ~1s"}}
+[debug] [2022-09-20T09:55:57.234Z] [worker-us-central1-placesNearby-f4ef0d2b-15c8-45da-b078-43a9cc078704]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-placesNearby-f4ef0d2b-15c8-45da-b078-43a9cc078704]: IDLE"}}
+[debug] [2022-09-20T09:55:57.235Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-09-20T09:56:58.054Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-09-20T09:56:58.054Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-09-20T09:56:58.054Z] Accepted request GET /mealstogo-e2e6a/us-central1/placesNearby?location=41.878113,-87.629799 --> us-central1-placesNearby
+[debug] [2022-09-20T09:56:58.054Z] [worker-pool] submitWork(triggerId=us-central1-placesNearby) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-placesNearby)"}}
+[debug] [2022-09-20T09:56:58.054Z] [worker-us-central1-placesNearby-f4ef0d2b-15c8-45da-b078-43a9cc078704]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-placesNearby-f4ef0d2b-15c8-45da-b078-43a9cc078704]: BUSY"}}
+[debug] [2022-09-20T09:56:58.055Z] [runtime-status] [82144] Beginning invocation function placesNearby! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [82144] Beginning invocation function placesNearby!"}}
+[info] i  functions: Beginning execution of "placesNearby" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"Beginning execution of \"placesNearby\""}}
+[debug] [2022-09-20T09:56:58.056Z] [runtime-status] [82144] Running placesNearby in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [82144] Running placesNearby in signature http"}}
+[debug] [2022-09-20T09:56:58.056Z] [runtime-status] [82144] Listening to port: /tmp/fire_emu_d4d27ce4e3ef207f.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [82144] Listening to port: /tmp/fire_emu_d4d27ce4e3ef207f.sock"}}
+[debug] [2022-09-20T09:56:58.160Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-09-20T09:56:58.161Z] [functions] Got req.url=/mealstogo-e2e6a/us-central1/placesNearby?location=41.878113,-87.629799, mapping to path=/?location=41.878113,-87.629799 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/mealstogo-e2e6a/us-central1/placesNearby?location=41.878113,-87.629799, mapping to path=/?location=41.878113,-87.629799"}}
+[debug] [2022-09-20T09:56:58.163Z] [runtime-status] [82144] Ephemeral server handling GET request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [82144] Ephemeral server handling GET request"}}
+[debug] [2022-09-20T09:56:58.166Z] [runtime-status] [82144] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [82144] Ephemeral server survived."}}
+[info] i  functions: Finished "placesNearby" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"Finished \"placesNearby\" in ~1s"}}
+[debug] [2022-09-20T09:56:58.166Z] [worker-us-central1-placesNearby-f4ef0d2b-15c8-45da-b078-43a9cc078704]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-placesNearby-f4ef0d2b-15c8-45da-b078-43a9cc078704]: IDLE"}}
+[debug] [2022-09-20T09:56:58.166Z] [work-queue] {"queueLength":0,"workRunningCount":0}
