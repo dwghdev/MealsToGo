@@ -22,14 +22,15 @@ import { payRequest } from "../../../services/checkout/checkout.service";
 export const CheckoutScreen = ({ navigation }) => {
   const { cart, restaurant, sum, clearCart } = useContext(CartContext);
   const [name, setName] = useState("");
+  const [card, setCard] = useState(null);
 
   const onPay = () => {
-    payRequest("123", 1299, "Mo Binni");
+    if (!card || !card.id) {
+      console.log("some error", card);
+    } else {
+      payRequest(card.id, sum, name);
+    }
   };
-
-  useEffect(() => {
-    onPay();
-  }, []);
 
   if (!cart.length || !restaurant) {
     return (
@@ -63,11 +64,11 @@ export const CheckoutScreen = ({ navigation }) => {
           onChangeText={t => { setName(t) }}
         />
         <Spacer position="top" size="large">
-          {name.length > 0 && <CreditCardInput name={name} />}
+          {name.length > 0 && <CreditCardInput name={name} onSuccess={setCard} />}
         </Spacer>
         <Spacer position="top" size="xl" />
 
-        <PayButton onPress={() => console.log("success")}> 
+        <PayButton onPress={onPay}> 
           Pay 
         </PayButton>
         <Spacer position="top" size="large">
