@@ -12,12 +12,14 @@ import { SafeArea } from "../../../components/utility/safe-area.component";
 import { 
   CartIcon, 
   NameInput,
+  PayButton,
+  ClearButton,
   CartIconContainer, 
 } from "../components/checkout.styles";
 import { RestaurantInfoCard } from "../../restaurants/components/restaurant-info-card.component";
 
 export const CheckoutScreen = ({ navigation }) => {
-  const { cart, restaurant, sum } = useContext(CartContext);
+  const { cart, restaurant, sum, clearCart } = useContext(CartContext);
   const [name, setName] = useState("");
 
   if (!cart.length || !restaurant) {
@@ -51,7 +53,19 @@ export const CheckoutScreen = ({ navigation }) => {
           value={name}
           onChangeText={t => { setName(t) }}
         />
-        {name.length > 0 && <CreditCardInput name={name} />}
+        <Spacer position="top" size="large">
+          {name.length > 0 && <CreditCardInput name={name} />}
+        </Spacer>
+        <Spacer position="top" size="xl" />
+
+        <PayButton onPress={() => console.log("success")}> 
+          Pay 
+        </PayButton>
+        <Spacer position="top" size="large">
+          <ClearButton onPress={clearCart}> 
+            Clear Cart 
+          </ClearButton>
+        </Spacer>
       </ScrollView>
     </SafeArea>
   );

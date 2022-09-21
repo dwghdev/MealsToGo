@@ -1,6 +1,7 @@
 import React from "react";
-import { Avatar, TextInput } from "react-native-paper";
 import styled from "styled-components/native";
+import { Avatar, TextInput, Button } from "react-native-paper";
+import { colors } from "../../../infrastructure/theme/colors";
 
 export const CartIconContainer = styled.View`
   flex: 1;
@@ -18,3 +19,23 @@ export const NameInput = styled(TextInput)`
   margin: ${props => props.theme.space[3]};
 `;
 
+
+export const PayButton = styled(Button).attrs({
+  icon: "cash",
+  mode: "contained",
+  color: colors.brand.primary,
+})`
+  width: 80%;
+  align-self: center;
+  padding: ${props => props.theme.space[2]};
+`;
+
+export const ClearButton = styled(Button).attrs({
+  icon: "cart-off",
+  mode: "contained",
+  color: colors.ui.error,
+})`
+  width: 80%;
+  align-self: center;
+  padding: ${props => props.theme.space[2]};
+`;
