@@ -1,4 +1,5 @@
 const { locations: locationsMock } = require("./geocode.mock");
+const functions = require("firebase-functions");
 const url = require("url");
 
 module.exports.geocodeRequest = (request, response, client) => {
@@ -11,7 +12,7 @@ module.exports.geocodeRequest = (request, response, client) => {
   client.geocode({
     params: {
       address: city,
-      key: "api key for google",
+      key: functions.config().google.key,
     },
     timeout: 1000,
   }).then(res => response.json(res.data))

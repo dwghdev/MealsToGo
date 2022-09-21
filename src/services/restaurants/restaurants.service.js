@@ -1,11 +1,9 @@
-import { mocks, mockImages } from "./mock";
+import { host, isMock } from "../../utils/env";
 import camelize from "camelize";
 
-export const restaurantsRequest = (location) => {
-  return fetch(
-    `https://6023-136-158-41-234.ngrok.io/mealstogo-e2e6a/us-central1/placesNearby?location=${location}`
-  ).then(res => res.json());
-};
+export const restaurantsRequest = (location) => fetch(
+  `${host}/placesNearby?location=${location}&mock=${isMock}`
+).then(res => res.json());
 
 export const restaurantsTransform = ({ results = [] }) => {
   const mappedResults = results.map((restaurant) => {
