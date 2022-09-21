@@ -1,5 +1,5 @@
 import React from "react";
-import { Avatar } from "react-native-paper";
+import { Avatar, TextInput } from "react-native-paper";
 import styled from "styled-components/native";
 
 export const CartIconContainer = styled.View`
@@ -13,3 +13,8 @@ export const CartIcon = styled(Avatar.Icon).attrs({
 })`
   background-color: ${props => props.bg || props.theme.colors.brand.primary};
 `;
+
+export const NameInput = styled(TextInput)`
+  margin: ${props => props.theme.space[3]};
+`;
+
