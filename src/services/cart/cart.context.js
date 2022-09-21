@@ -1,5 +1,5 @@
 import React, { createContext, useState, useEffect, useContext } from "react";
-import AsyncStorage from "@react-native-async-storage/async";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 
 import { AuthenticationContext } from "../authentication/authentication.context";
 
@@ -11,12 +11,24 @@ export const CartContextProvider = ({ children }) => {
   const [cart, setCart] = useState([]);
   const [restaurant, setRestaurant] = useState(null);
 
+  const [sum, setSum] = useState(0);
+
+  useEffect(() => {
+    if (!cart.length) {
+      setSum(0);
+    } else {
+      const newSum = cart.reduce((acc, { price }) => acc += price, 0);
+      setSum(newSum);
+    }
+  }, [cart]);
+
   const add = (item, rst) => {
     if(!restaurant || restaurant.placeId !== rst.placeId) {
       setRestaurant(rst);
       setCart([item]);
+    } else {
+      setCart([...cart, item]);
     }
-    setCart([...cart, item]);
   };
 
   const clear = () => {
@@ -25,11 +37,12 @@ export const CartContextProvider = ({ children }) => {
   };
 
   return (
-    <CartContext.Provider values={{
+    <CartContext.Provider value={{
       addToCart: add,
       clearCart: clear,
       restaurant,
       cart,
+      sum
     }}>
       {children}
     </CartContext.Provider>
