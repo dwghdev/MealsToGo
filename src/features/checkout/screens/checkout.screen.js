@@ -17,10 +17,19 @@ import {
   CartIconContainer, 
 } from "../components/checkout.styles";
 import { RestaurantInfoCard } from "../../restaurants/components/restaurant-info-card.component";
+import { payRequest } from "../../../services/checkout/checkout.service";
 
 export const CheckoutScreen = ({ navigation }) => {
   const { cart, restaurant, sum, clearCart } = useContext(CartContext);
   const [name, setName] = useState("");
+
+  const onPay = () => {
+    payRequest("123", 1299, "Mo Binni");
+  };
+
+  useEffect(() => {
+    onPay();
+  }, []);
 
   if (!cart.length || !restaurant) {
     return (
