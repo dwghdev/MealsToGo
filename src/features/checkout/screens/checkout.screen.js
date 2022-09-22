@@ -11,11 +11,11 @@ import { CartContext } from "../../../services/cart/cart.context";
 import { CreditCardInput } from "../components/credit-card.component";
 
 import {
-  CartIconContainer,
   CartIcon,
   NameInput,
   PayButton,
   ClearButton,
+  CartIconContainer,
   PaymentProcessing,
 } from "../components/checkout.styles";
 import { RestaurantInfoCard } from "../../restaurants/components/restaurant-info-card.component";
@@ -34,20 +34,20 @@ export const CheckoutScreen = ({ navigation }) => {
       navigation.navigate("CheckoutError", {
         error: "Please fill in a valid credit card",
       });
-      return;
-    }
-    payRequest(card.id, sum, name)
-      .then((result) => {
-        setIsLoading(false);
-        clearCart();
-        navigation.navigate("CheckoutSuccess");
-      })
-      .catch((err) => {
-        setIsLoading(false);
-        navigation.navigate("CheckoutError", {
-          error: err,
+    } else {
+      payRequest(card.id, sum, name)
+        .then(result => {
+          setIsLoading(false);
+          clearCart();
+          navigation.navigate("CheckoutSuccess");
+        })
+        .catch(err => {
+          setIsLoading(false);
+          navigation.navigate("CheckoutError", {
+            error: err,
+          });
         });
-      });
+    }
   };
 
   if (!cart.length || !restaurant) {
@@ -60,6 +60,7 @@ export const CheckoutScreen = ({ navigation }) => {
       </SafeArea>
     );
   }
+
   return (
     <SafeArea>
       <RestaurantInfoCard restaurant={restaurant} />
@@ -70,18 +71,19 @@ export const CheckoutScreen = ({ navigation }) => {
             <Text>Your Order</Text>
           </Spacer>
           <List.Section>
-            {cart.map(({ item, price }) => {
-              return <List.Item title={`${item} - ${price / 100}`} />;
-            })}
+            {cart.map(({ item, price }, i) => (
+              <List.Item 
+                key={`item-${i}-${price}`} 
+                title={`${item} - ${price / 100}`} 
+              />
+            ))}
           </List.Section>
           <Text>Total: {sum / 100}</Text>
         </Spacer>
         <NameInput
           label="Name"
           value={name}
-          onChangeText={(t) => {
-            setName(t);
-          }}
+          onChangeText={t => { setName(t) }}
         />
         <Spacer position="top" size="large">
           {name.length > 0 && (
@@ -98,21 +100,11 @@ export const CheckoutScreen = ({ navigation }) => {
         </Spacer>
         <Spacer position="top" size="xxl" />
 
-        <PayButton
-          disabled={isLoading}
-          icon="cash-usd"
-          mode="contained"
-          onPress={onPay}
-        >
+        <PayButton disabled={isLoading} onPress={onPay}>
           Pay
         </PayButton>
         <Spacer position="top" size="large">
-          <ClearButton
-            disabled={isLoading}
-            icon="cart-off"
-            mode="contained"
-            onPress={clearCart}
-          >
+          <ClearButton onPress={clearCart} disabled={isLoading}>
             Clear Cart
           </ClearButton>
         </Spacer>

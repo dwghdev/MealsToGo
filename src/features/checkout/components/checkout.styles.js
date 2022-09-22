@@ -37,6 +37,8 @@ export const NameInput = styled(TextInput)`
 
 export const PayButton = styled(Button).attrs({
   color: colors.brand.primary,
+  mode: "contained",
+  icon: "cash"
 })`
   width: 80%;
   align-self: center;
@@ -44,6 +46,8 @@ export const PayButton = styled(Button).attrs({
 `;
 export const ClearButton = styled(Button).attrs({
   color: colors.ui.error,
+  mode: "contained",
+  icon: "cart-off"
 })`
   width: 80%;
   align-self: center;

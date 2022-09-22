@@ -2,14 +2,16 @@ import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { Ionicons } from "@expo/vector-icons";
 
-import { RestaurantsNavigator } from "./restaurants.navigator";
-import { SettingsNavigator } from "./settings.navigator";
 import { MapScreen } from "../../features/map/screens/map.screen";
+
 import { CheckoutNavigator } from "./checkout.navigator";
+import { SettingsNavigator } from "./settings.navigator";
+import { RestaurantsNavigator } from "./restaurants.navigator";
+
 import { CartContextProvider } from "../../services/cart/cart.context";
-import { RestaurantsContextProvider } from "../../services/restaurants/restaurants.context";
 import { LocationContextProvider } from "../../services/location/location.context";
 import { FavouritesContextProvider } from "../../services/favourites/favourites.context";
+import { RestaurantsContextProvider } from "../../services/restaurants/restaurants.context";
 
 const Tab = createBottomTabNavigator();
 
@@ -26,6 +28,7 @@ const createScreenOptions = ({ route }) => {
     tabBarIcon: ({ size, color }) => (
       <Ionicons name={iconName} size={size} color={color} />
     ),
+    headerShown: false
   };
 };
 

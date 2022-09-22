@@ -1,6 +1,7 @@
 import React from "react";
 
 import { createStackNavigator } from "@react-navigation/stack";
+import { RestaurantsContextProvider } from "../../services/restaurants/restaurants.context";
 
 const CheckoutStack = createStackNavigator();
 
@@ -9,8 +10,11 @@ import { CheckoutErrorScreen } from "../../features/checkout/screens/checkout-er
 import { CheckoutSuccessScreen } from "../../features/checkout/screens/checkout-success.screen";
 
 export const CheckoutNavigator = () => (
-  <CheckoutStack.Navigator headerMode="none">
-    <CheckoutStack.Screen name="Checkout" component={CheckoutScreen} />
+  <CheckoutStack.Navigator screenOptions={{ headerShown: false }}>
+    <CheckoutStack.Screen 
+      name="Checkout" 
+      component={CheckoutScreen} 
+    />
     <CheckoutStack.Screen
       name="CheckoutSuccess"
       component={CheckoutSuccessScreen}

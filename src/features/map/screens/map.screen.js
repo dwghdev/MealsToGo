@@ -4,6 +4,7 @@ import styled from "styled-components/native";
 
 import { RestaurantsContext } from "../../../services/restaurants/restaurants.context";
 import { LocationContext } from "../../../services/location/location.context";
+import { SafeArea } from "../../../components/utility/safe-area.component";
 import { MapCallout } from "../components/map-callout.component";
 import { Search } from "../components/search.component";
 
