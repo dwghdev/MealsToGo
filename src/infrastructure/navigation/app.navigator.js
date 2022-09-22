@@ -1,12 +1,14 @@
 import React from "react";
-import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { Ionicons } from "@expo/vector-icons";
+import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 
-import { MapScreen } from "../../features/map/screens/map.screen";
+import { colors } from "../../infrastructure/theme/colors";
 
 import { CheckoutNavigator } from "./checkout.navigator";
 import { SettingsNavigator } from "./settings.navigator";
 import { RestaurantsNavigator } from "./restaurants.navigator";
+
+import { MapScreen } from "../../features/map/screens/map.screen";
 
 import { CartContextProvider } from "../../services/cart/cart.context";
 import { LocationContextProvider } from "../../services/location/location.context";
@@ -40,8 +42,8 @@ export const AppNavigator = () => (
           <Tab.Navigator
             screenOptions={createScreenOptions}
             tabBarOptions={{
-              activeTintColor: "tomato",
-              inactiveTintColor: "gray",
+              activeTintColor: colors.brand.primary,
+              inactiveTintColor: colors.brand.muted,
             }}
           >
             <Tab.Screen name="Restaurants" component={RestaurantsNavigator} />

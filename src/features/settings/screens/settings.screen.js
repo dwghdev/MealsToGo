@@ -39,8 +39,19 @@ export const SettingsScreen = ({ navigation }) => {
     <SafeArea>
       <AvatarContainer>
         <TouchableOpacity onPress={() => navigation.navigate("Camera")}>
-          {!photo && <Avatar.Icon size={180} icon="human" backgroundColor={colors.brand.primary} />}
-          {photo && <Avatar.Image size={180} source={{ uri: photo }} backgroundColor={colors.brand.primary} />}
+        {photo ? (
+          <Avatar.Image 
+            size={180} 
+            source={{ uri: photo }} 
+            backgroundColor={colors.brand.primary} 
+          /> 
+        ) : ( 
+          <Avatar.Icon 
+            size={180} 
+            icon="human" 
+            backgroundColor={colors.brand.primary} 
+          />
+        )}
         </TouchableOpacity>
         <Spacer position="top" size="large">
           <Text variant="label">{user.email}</Text>
@@ -53,6 +64,19 @@ export const SettingsScreen = ({ navigation }) => {
           onPress={() => navigation.navigate("Favourites")}
           left={props => <List.Icon {...props} color={colors.ui.error} icon="heart" />}
         />
+        <Spacer />
+        <SettingsItem
+          title="Payment"
+          onPress={() => null}
+          left={props => <List.Icon {...props} color={colors.ui.secondary} icon="cart" />}
+        />
+        <Spacer />
+        <SettingsItem
+          title="Past Orders"
+          onPress={() => null}
+          left={props => <List.Icon {...props} color={colors.ui.secondary} icon="history" />}
+        />
+        <Spacer />
         <SettingsItem
           title="Logout"
           onPress={onLogout}
